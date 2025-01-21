@@ -1,0 +1,67 @@
+body{
+    background-image: url(E4.jpg);
+    background-size: cover;
+    }
+   header > h1{
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    text-shadow: 2px 2px 4px #333;
+    }
+
+
+nav{
+    margin: auto;
+    border: solid 1px;
+    background: transparent;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0,3);
+}
+nav > a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+}
+
+nav > a:hover {
+    transition: 0.25s;
+    background: black;
+    color: silver;
+}
+
+.content{
+    display: flex;
+}
+img{
+    width: 800px;
+    height: 300px;
+}
+p{
+    color: black;
+    background-color: white;
+}
+img,p{
+    padding: 10px;
+}
+
+
+main > h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px #333 ;
+    color: #000;
+}
+h2{
+    text-shadow: 2px 2px 4px #333;
+    color:black;
+    text-align: center;
+}
+.img-bj2{
+    height: 350px;
+    display: flex;
+    margin: auto;
+}

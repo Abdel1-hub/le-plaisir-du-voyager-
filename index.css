@@ -1,0 +1,115 @@
+body{
+    background-image: url(E4.jpg);
+    background-size: cover;
+    }
+header > h1{
+    text-align: center;
+    color: black;
+    background-color:transparent;
+    text-shadow: 2px 2px 4px #333;
+}
+h6{
+    color: black;
+    text-align: center;
+}
+nav{
+    margin: auto;
+    border: solid 1px;
+    background: transparent;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0,3);
+}
+nav > a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+}
+
+nav > a:hover {
+    transition: 0.25s;
+    background: black;
+    color:white;
+}
+ul{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 80%;
+    border-right: 1px solid beige;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+}
+ul li:nth-child(1){
+    background: url(Q1.webp);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(2){
+    background: url(AB\ PNG.png);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(3){
+    background: url(W1.avif);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(4){
+    background: url(bj2.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul li:nth-child(5){
+    background: url(PARIS1.jpg);
+    background-size: cover;
+    background-position: left top;
+}
+ul:hover li{
+    width: 10%;
+}
+ul li:hover{
+    width: 60%;
+}
+ul li .content {
+      position: absolute;
+      bottom: -100%;
+      left:0;
+      height:70%;
+      width: 100%;
+      padding: 20px;
+      background-color:white;
+      box-sizing: border-box;
+      color: black;
+      opacity: 1;
+}
+ul li .content h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul li .content p{
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+}
+ul li:hover .content{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
